@@ -1,0 +1,85 @@
+
+*{
+  text-align: center;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: var(--top-var);
+  height: 150px;
+  margin: 10px 20px;
+  background: url(fondo.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover; 
+  background-position: bottom;
+  text-align: center;
+  color: #000;
+  border-radius: 20px;
+  text-shadow:  1px 5px 8px #fff;
+}
+
+div h1 {
+
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ul, ol {
+  flex-direction: column; umna */
+  align-items: center; os en la pantalla */
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+li {
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+#pag-2 {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px auto;
+  text-decoration: none;
+  color: #0095ff; 
+  transiition: color 0.1s ease;
+} 
+
+#pag-2:hover {
+  color: #ff5500; 
+}
+
+a:hover {
+  color: #ff5500;
+}
+
+video{
+  border-radius: 30px;
+}

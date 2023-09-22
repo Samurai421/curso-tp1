@@ -1,0 +1,49 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+nav {
+  font-size: 40px;
+}
+
+nav h1{
+  font-size: 30px;
+  margin: 0px;
+}
+
+nav a{
+  color: #fff;
+  margin: 0px;
+}
+
+footer {
+  background-color: #0c2534;
+  color: #fff;
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  bottom: 0;
+  width: 100%; 
+  flex-direction: column;
+}
+
+.footer-a {
+  order: 1;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 10px;
+}
+
+
+footer img {
+  order: 0;
+  width: 100px;
+  height: auto;
+  margin: 10px; 
+}
